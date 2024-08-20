@@ -1,0 +1,261 @@
+/* ===== Webサイト全体のスタイル ===== */
+/* html */
+html {
+  height: 100%;
+}
+
+/* body */
+body {
+  height: 100%;
+  margin: 0;
+}
+/* h1見出し */
+h1 {
+  color: #C0C0C0;/* フォントの色 */
+  text-shadow:5px 5px 5px #26896D;
+  font-size: 200px;/* フォントの大きさ */
+  font-family: Cormorant;/* フォントの種類 */
+  text-align: left;
+  margin-top: 0; 
+  margin-bottom: 0;
+  padding-left:10px;
+  font-weight: lighter;
+}
+
+h2{
+  color:#ffffff;
+  font-family: Shippori Mincho,Hina Mincho,selif;
+  text-shadow:0px 0px 10px #000000;
+  padding-left:10px;
+}
+/* ===== ヘッダーのスタイル ===== */
+/* ヘッダーの箱 */
+header {
+  background-image: url(img/elysia.jpg);/* 背景画像 */
+  background-size:cover;
+  height: 403px;/* 高さ */
+  padding-top: 225px;/* 上がわの余白 */
+}
+
+nav{
+  background-color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: Shippori Mincho,Hina Mincho,selif;
+  font-size:25px;
+}
+
+nav ul{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 100px;
+}
+
+nav a{
+color:#000000;
+text-decoration: none;
+}
+
+nav a:hover{
+  color:#00AE95;
+}
+
+/* ===== お店紹介のスタイル ===== */
+/* セクション */
+#story {
+  background-image:url(img/秘境の碑石.jpg);
+  background-size: cover;
+  color:#3d4d45;
+  padding: 10px;
+  height: 700px;
+  text-shadow: 0px 0px 2px #b1effa;
+}
+
+/* h2見出し */
+.title {
+  font-size: 100px;
+  margin-top: 10px;
+  color: #00AE95;
+  font-family: Cormorant;
+  text-shadow: 2px 2px 2px #ffffff;
+  font-weight: lighter;
+  text-align: center;
+}
+#storytitle{
+  color:#c0c0c0;
+  text-shadow:5px 5px 5px #000000;
+}
+
+
+/* 段落 */
+.story p {
+  font-size: 20px;
+  background:rgba(255,255,180,0.7);
+  padding: 20px;
+  border-radius: 30px;
+  height: 425px;
+  font-family: Shippori Mincho,Hina Mincho,selif;
+  text-align: center;
+}
+
+/* 画像 */
+
+
+/* ===== パン紹介のスタイル ===== */
+/* セクション */
+.Character {
+  padding: 20px;
+  background-image:url(img/蛍の森.jpg); 
+  background-size: cover;
+  height: 2200px
+}
+
+#charactertitle{
+color:#00AE95;
+text-shadow:5px 5px 5px #ffffff;  
+}
+
+/* h2見出し */
+.Character h2 {
+  color: #00AE95;
+  border-color: #00AE95;
+}
+
+/* h3見出し */
+.Character h3 {
+  color: #663300;
+}
+
+/* 段落 */
+.Character p {
+  color: #ffffff;
+}
+
+/* 大きな箱 */
+.character {
+  background-color: #ffffff;
+  width: 300px;/* 横幅 */
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;/* 影 */
+  font-family: Shippori Mincho,Hina Mincho,selif;
+}
+
+#thief {
+  float: left;
+}
+
+#priest{
+  float: left;
+}
+
+#windcaster{
+  float:left;
+}
+#guardian{
+  float: right;
+}
+#seizyo{
+  float:right;
+}
+#darkcaster{
+  float: right;
+}
+
+#samurai{
+  float: left;
+}
+
+#merchant{
+  float:left;
+}
+
+#flowercaster{
+  float:left;
+}
+
+.Character h5{
+  color:#ffffff;
+  font-size: 25px;
+  text-align: center;
+  font-family:Shippori Mincho,Hina Mincho,selif;
+  clear: both;
+}
+
+.system{
+  padding: 20px;
+  background-color:white;
+}
+
+#systemtitle{
+  text-shadow: 5px 5px 5px #C0C0C0;
+}
+
+.system h3{
+  font-size: 50px;
+  text-align: center;
+  font-family:Shippori Mincho,Hina Mincho,selif;
+  color: #00AE95;
+  font-weight: lighter;
+  text-shadow:5px 5px 5px #C0C0C0;
+}
+
+.system h4{
+  font-size: 20px;
+  text-align: center;
+  font-family:Shippori Mincho,Hina Mincho,selif;
+  color: #00AE95;
+  font-weight: lighter;
+  text-shadow: 5px 5px 5px #C0C0C0;
+}
+
+.system table{
+  padding: 10px;
+  font-family: Shippori Mincho,Hina Mincho,selif;
+  color:#00AE95;
+  font-size: 20px;
+}
+.system th{
+ border:1px solid #000000;
+ padding:10px;
+}
+
+.system td{
+  border:1px solid #000000;
+  padding:10px;
+}
+
+.product {
+  padding: 20px;
+  background-color: #ffffdd;
+  height: 600px;
+  color: #663300;
+  font-family: Shippori Mincho,Hina Mincho,selif;
+}
+
+/* h3見出し */
+
+/* リスト */
+.product ul {
+  list-style-type: none;/* リストのマーカー */
+  padding-left: 0px;
+  }
+
+/* 箱 */
+.product div {
+  width: 50%;
+  float:left;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  background-color: #663300;
+  color: #ffffff;
+  font-family: Shippori Mincho,Hina Mincho,selif;
+}
